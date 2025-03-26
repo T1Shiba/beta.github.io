@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogGames</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Thêm Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <a href="#"><img src="image/BUILD_LOGO.webp" alt="BlogGames Logo"></a>
+        </div>
+
+        <nav class="menu">
+            <ul>
+                <li class="dropdown" id="account-dropdown">
+                    <button class="dropdown-toggle" aria-expanded="false">Account ▾</button>
+                    <div class="dropdown-content account-dropdown">
+                        <a href="#" id="signin-link">Sign In</a>
+                        <a href="#" id="login-link">Log In</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <button class="dropdown-toggle" aria-expanded="false">NEWS ▾</button>
+                    <div class="dropdown-content news-dropdown">
+                        <a href="#" class="news-link" data-news="GAMES-NEWS">Games news</a>
+                        <a href="#" class="news-link" data-news="ESPORT">Esport</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <button class="dropdown-toggle" aria-expanded="false">COMMUNITIES ▾</button>
+                    <div class="dropdown-content communities-dropdown">
+                        <a href="#" class="communities-link" data-community="forums">Forums</a>
+                        <a href="#" class="communities-link" data-community="groups">Groups</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <button class="dropdown-toggle" aria-expanded="false">SUPPORT ▾</button>
+                    <div class="dropdown-content support-dropdown">
+                        <a href="#" class="support-link" data-support="faq">FAQ</a>
+                        <a href="#" class="support-link" data-support="contact-us">Contact Us</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sign-in Form -->
+    <div id="signin-form" class="auth-form">
+        <button class="close-button">×</button>
+        <h2>Sign In</h2>
+        <label for="signin-identifier">Username or Email:</label>
+        <input type="text" id="signin-identifier" name="signin-identifier">
+
+        <label for="signin-password">Password:</label>
+        <input type="password" id="signin-password" name="signin-password">
+
+        <button type="submit">Sign In</button>
+    </div>
+
+    <!-- Log-in Form -->
+    <div id="login-form" class="auth-form">
+        <button class="close-button">×</button>
+        <h2>Log In</h2>
+
+        <label for="login-realname">Real Name:</label>
+        <input type="text" id="login-realname" name="login-realname" required>
+
+        <label for="login-dob">Date of Birth:</label>
+        <input type="date" id="login-dob" name="login-dob" required>
+
+        <label for="login-email">Gmail:</label>
+        <input type="email" id="login-email" name="login-email" required>
+
+        <label for="login-username">Username:</label>
+        <input type="text" id="login-username" name="login-username" required>
+
+        <label for="login-password">Password:</label>
+        <input type="password" id="login-password" name="login-password" required>
+
+        <label for="login-confirm-password">Confirm Password:</label>
+        <input type="password" id="login-confirm-password" name="login-confirm-password" required>
+
+        <button type="submit">Log In</button>
+    </div>
+
+    <!-- Overlay -->
+    <div id="overlay" class="overlay"></div>
+
+    <main id="main-content">
+        <section id="game-details" style="display: none;">
+            <div id="game-video"></div>
+            <div id="game-info">
+                <div id="game-links" class="game-links">
+                    <a href="#" id="publisher-link" class="game-link publisher-link" target="_blank">
+                        <i class="fas fa-globe link-icon"></i>
+                        <span>Visit Publisher</span>
+                    </a>
+                    <a href="#" id="steam-link" class="game-link steam-link" target="_blank">
+                        <i class="fab fa-steam link-icon"></i>
+                        <span>Visit Steam</span>
+                    </a>
+                </div>
+                <div id="game-description"></div>
+            </div>
+        </section>
+
+        <nav id="game-thumbnails">
+            <div class="game-thumbnails-header">Game hot trên steam</div>
+            <img src="/image/monster-hunter-wilds-1702048878670561605042.webp" alt="Monster Hunter Wilds" data-game="monster-hunter-wilds">
+            <img src="/image/REPO.jpg" alt="R.E.P.O" data-game="repo">
+            <img src="/image/ACS.jpg" alt="Assassin’s Creed Shadows" data-game="assassins-creed-shadows">
+            <img src="/image/cs2.jpg" alt="Counter-Strike 2" data-game="counter-strike-2">
+        </nav>
+    </main>
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
