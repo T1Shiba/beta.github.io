@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const featuredNewsData = [
         {
             id: "thien-long-origin-1",
-            image: "/images/thien-long-origin-1-17441892507981019140530.webp",
+            image: "./images/thien-long-origin-1-17441892507981019140530.webp",
             title: "Tựa game Thiên Long Bát Bộ kinh điển của 8x 9x thông báo ngày ra mắt chính thức",
             content: "Thiên Long Origin là tựa game MMORPG do VNGGames phát hành, tái hiện nguyên bản thế giới Thiên Long Bát Bộ trên nền tảng PC...",
             url: "https://thienlongorigin.zing.vn/",
@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         {
             id: "t1-drama-2",
-            image: "/images/t1-drama-gumayusi-1-17441772159702063384208.webp",
+            image: "./images/t1-drama-gumayusi-1-17441772159702063384208.webp",
             title: "Drama hậu trường T1 bùng nổ, một hành động đơn giản khiến cả cộng đồng LMHT tranh cãi",
             content: "Tưởng rằng nội bộ T1 sẽ ổn định trong mùa giải Regular Season 2025, nhưng mới đây lại nổ ra drama...",
             url: "https://webthethao.vn/lien-minh-huyen-thoai/drama-hau-truong-t1-bung-no-mot-hanh-dong-don-gian-khien-ca-cong-dong-lmht-tranh-cai-2SjO4mPiR.htm",
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const latestNewsData = [
          {
             id: "gundam-steam",
-            image: "/images/gundam-anime-4k-wallpaper-uhdpaper.com-290@5@d.jpg",
+            image: "./images/gundam-anime-4k-wallpaper-uhdpaper.com-290@5@d.jpg",
             title: "Tựa game Gundam này chỉ còn 6 người chơi, bị xóa khỏi Steam?",
             content: "SD Gundam Capsule Fighter Online, game online đình đám một thời giờ chỉ còn đếm trên đầu ngón tay người chơi...",
             url: "https://gamek.vn/tua-game-chi-con-6-nguoi-choi-bi-xoa-khoi-steam-178240722172802315.chn",
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         {
             id: "dot-kich-mobile",
-            image: "/images/news-5.jpg", // Thay ảnh thật
+            image: "./images/news-5.jpg", // Thay ảnh thật
             title: "Đột Kích Mobile sắp hồi sinh?",
             content: "Phiên bản thử nghiệm mới bất ngờ được đăng tải, cộng đồng dậy sóng.",
             url: "#", // Thay link thật
@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         {
             id: "moonton-moba",
-            image: "/images/news-6.jpg", // Thay ảnh thật
+            image: "./images/news-6.jpg", // Thay ảnh thật
             title: "Moonton hé lộ dự án MOBA mới",
             content: "Đối thủ nặng ký của Liên Quân và LMHT Tốc Chiến chính thức khởi động.",
             url: "#", // Thay link thật
@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         {
             id: "valorant-mobile",
-            image: "/images/news-7.jpg", // Thay ảnh thật
+            image: "./images/news-7.jpg", // Thay ảnh thật
             title: "Valorant Mobile lộ ảnh thử nghiệm",
             content: "Hé lộ bản đồ mới, súng mới, và tính năng độc quyền cho mobile.",
             url: "#", // Thay link thật
@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         {
             id: "steam-sale",
-            image: "/images/news-8.jpg", // Thay ảnh thật
+            image: "./images/news-8.jpg", // Thay ảnh thật
             title: "Steam Sale giữa năm chuẩn bị khởi động",
             content: "Hàng trăm game giảm giá sâu, bạn đã sẵn sàng chưa?",
             url: "https://store.steampowered.com/",
@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function () {
     ];
   
     const allNews = [...featuredNewsData, ...latestNewsData];
-    const placeholderImage = '/images/placeholder.png'; // Đường dẫn ảnh placeholder chung
+    const placeholderImage = './images/placeholder.png'; // Đường dẫn ảnh placeholder chung
   
     // --- Quản lý Dữ liệu Tương tác (LocalStorage) ---
     const interactionDataKey = "newsInteractionData"; // Key cho localStorage
@@ -372,7 +372,7 @@ document.addEventListener("DOMContentLoaded", function () {
             });
         } else {
             newLoginBtn.textContent = "LOGIN";
-            newLoginBtn.href = "/html/login.html"; // Đảm bảo link đúng
+            newLoginBtn.href = "./html/login.html"; // Đảm bảo link đúng
             newLoginBtn.style.cursor = "";
             newLoginBtn.title = "Đăng nhập / Đăng ký";
             // Không cần thêm listener cho nút login
