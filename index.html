@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <script src="https://www.youtube.com/iframe_api"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
@@ -34,75 +34,128 @@
                 <li><a href="#support-section">LIÊN HỆ</a></li>
             </ul>
         </nav>
-        <div class="search-account">
-            <a href="../html/login.html" id="login-btn">LOGIN</a>
+        <div class="right-controls">
+            <div class="tab-switcher-wrapper">
+                <label>
+                    <input type="checkbox" id="tab-toggle" class="theme-checkbox" />
+                </label>
+            </div>
+            <div class="search-account">
+                <a href="../html/login.html" id="login-btn">LOGIN</a>
+            </div>
         </div>
     </header>
 
-    <main id="main-content">
-        <section id="game-details" style="display: none;">
-            <div id="game-video"></div>
-            <div id="game-info">
-                <div id="game-link"></div>
-                <div id="game-description"></div>
-            </div>
-        </section>
-        <nav id="game-thumbnails">
-            <img src="../images/minecraft-background-cfljc4haleghnajo.jpg" alt="sinh tồn" data-game="sinh-ton">
-            <img src="../images/8672297_Cover-ACS.webp" alt="hành động" data-game="hanh-dong">
-            <img src="../images/Vvvbbsi3774hfiaoolfb_1920x1040.jpg" alt="nhập vai" data-game="nhap-vai">
-            <img src="../images/valorant-game-ban-sung-chien-thuat-dau-tien-cua-riot-23-09-2020-3.jpg" alt="FPS-TPS" data-game="FPS-TPS">
-            <img src="../images/arknights-4k-waggbbwkw7f8w8dg.jpg" alt="chiến lược" data-game="chien-luoc">
-            <img src="../images/e3-2016-forza-horizon-3-le-hoi-than-gio-gioi-thieu-game-01.jpg" alt="sports" data-game="sports">
-            <img src="../images/pubg-mobile-game-image-4.jpg" alt="battle royal" data-game="battle-royal">
-        </nav>
-    </main>
-
-    <section id="explore-games">
-        <h2>Game sắp ra mắt</h2>
-        <div class="carousel-container">
-            <div class="game-slider">
-                <div class="game-track">
-                    <div class="game-card">
-                        <a href="https://www.marvel.com/games/marvels-spider-man-2">
-                            <img src="../images/game1.jpg" alt="Marvel's Spiderman 2">
-                            <h3>Marvel's Spiderman 2</h3>
-                        </a>
-                    </div>
-                    <div class="game-card">
-                        <a href="https://www.ubisoft.com/en-sg/game/assassins-creed/shadows">
-                            <img src="../images/game2.jpg" alt="Assassin's Creed Shadows">
-                            <h3>Assassin's Creed Shadows</h3>
-                        </a>
-                    </div>
-                    <div class="game-card">
-                        <a href="https://atomfall.com/fr">
-                            <img src="../images/game3.jpg" alt="Atomfall">
-                            <h3>Atomfall</h3>
-                        </a>
-                    </div>
-                    <div class="game-card">
-                        <a href="https://www.kojimaproductions.jp/en/death-stranding-2">
-                            <img src="../images/game4.jpg" alt="Death Stranding 2">
-                            <h3>Death Stranding 2</h3>
-                        </a>
-                    </div>
-                    <div class="game-card">
-                        <a href="https://www.rockstargames.com/VI">
-                            <img src="../images/game5.jpg" alt="Grand Theft Auto 6">
-                            <h3>Grand Theft Auto 6</h3>
-                        </a>
-                    </div>
-                    <div class="game-card">
-                        <a href="https://www.playstation.com/en-vn/games/little-nightmares-3/">
-                            <img src="../images/game6.jpg" alt="Little Nightmare 3">
-                            <h3>Little Nightmare 3</h3>
-                        </a>
+    <div id="home-content" class="tab-content active">
+        <main id="main-content">
+            <section id="game-details" style="display: none;">
+                <div id="game-video"></div>
+                <div id="game-info"> 
+                    <div id="game-link"></div>
+                    <div id="game-description"></div>
+                </div>
+            </section>
+            <nav id="game-thumbnails">
+                <img src="../images/minecraft-background-cfljc4haleghnajo.jpg" alt="sinh tồn" data-game="sinh-ton">
+                <img src="../images/8672297_Cover-ACS.webp" alt="hành động" data-game="hanh-dong">
+                <img src="../images/Vvvbbsi3774hfiaoolfb_1920x1040.jpg" alt="nhập vai" data-game="nhap-vai">
+                <img src="../images/valorant-game-ban-sung-chien-thuat-dau-tien-cua-riot-23-09-2020-3.jpg" alt="FPS-TPS" data-game="FPS-TPS">
+                <img src="../images/arknights-4k-waggbbwkw7f8w8dg.jpg" alt="chiến lược" data-game="chien-luoc">
+                <img src="../images/e3-2016-forza-horizon-3-le-hoi-than-gio-gioi-thieu-game-01.jpg" alt="sports" data-game="sports">
+                <img src="../images/pubg-mobile-game-image-4.jpg" alt="battle royal" data-game="battle-royal">
+            </nav>
+        </main>
+        <section id="explore-games">
+            <h2>Game sắp ra mắt</h2>
+            <div class="carousel-container">
+                <div class="game-slider">
+                    <div class="game-track">
+                        <div class="game-card">
+                            <a href="https://www.marvel.com/games/marvels-spider-man-2">
+                                <img src="../images/game1.jpg" alt="Marvel's Spiderman 2">
+                                <h3>Marvel's Spiderman 2</h3>
+                            </a>
+                        </div>
+                        <div class="game-card">
+                            <a href="https://www.ubisoft.com/en-sg/game/assassins-creed/shadows">
+                                <img src="../images/game2.jpg" alt="Assassin's Creed Shadows">
+                                <h3>Assassin's Creed Shadows</h3>
+                            </a>
+                        </div>
+                        <div class="game-card">
+                            <a href="https://atomfall.com/fr">
+                                <img src="../images/game3.jpg" alt="Atomfall">
+                                <h3>Atomfall</h3>
+                            </a>
+                        </div>
+                        <div class="game-card">
+                            <a href="https://www.kojimaproductions.jp/en/death-stranding-2">
+                                <img src="../images/game4.jpg" alt="Death Stranding 2">
+                                <h3>Death Stranding 2</h3>
+                            </a>
+                        </div>
+                        <div class="game-card">
+                            <a href="https://www.rockstargames.com/VI">
+                                <img src="../images/game5.jpg" alt="Grand Theft Auto 6">
+                                <h3>Grand Theft Auto 6</h3>
+                            </a>
+                        </div>
+                        <div class="game-card">
+                            <a href="https://www.playstation.com/en-vn/games/little-nightmares-3/">
+                                <img src="../images/game6.jpg" alt="Little Nightmare 3">
+                                <h3>Little Nightmare 3</h3>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
+
+    <div id="esport-content" class="tab-content">
+        <main id="esport-main-content">
+            <section id="esport-details" style="display: none;">
+                <div id="esport-video"></div>
+                <div id="esport-info">
+                    <div id="esport-link"></div>
+                    <div id="esport-description"></div>
+                </div>
+            </section>
+            <nav id="esport-thumbnails">
+                <img src="/esport/LCK_LOGO.jpg" alt="LCK SPRING 2025" data-match="LCK">
+                <img src="/esport/LCP_LOGO.png" alt="LCP MID SEASON 2025" data-match="LCP">
+                <img src="/esport/DTDV_LOGO.jpg" alt="DTDV SPRING" data-match="DTDV">
+                <img src="/esport/VCT_LOGO.jpg" alt="VCT SPLIT 1" data-match="VCT">
+            </nav>
+        </main>
+        <section id="explore-esport">
+            <h2>GIẢI ĐẤU SẮP DIỄN RA</h2>
+            <div class="carousel-container">
+                <div class="game-slider">
+                    <div class="game-track">
+                        <div class="game-card">
+                            <a href="https://www.leagueoflegends.com/">
+                                <img src="/esport/lmht-msi-2025-thumb.jpg" alt="MSI 2025">
+                                <h3>MSI 2025</h3>
+                            </a>
+                        </div>
+                        <div class="game-card">
+                            <a href="https://www.valorant.com/">
+                                <img src="/esport/e9a783f5d8f6a11792ef5eb090d78da605cb1655-1920x1080.jpg" alt="Valorant Champions">
+                                <h3>VCT MASTER TORONTO</h3>
+                            </a>
+                        </div>
+                        <div class="game-card">
+                            <a href="https://www.counter-strike.net/">
+                                <img src="/esport/Lien-Quan-AIC-2023-thumb.jpg" alt="AIC 2025">
+                                <h3>AIC 2025</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 
     <section id="support-section">
         <div class="support-wrapper">

@@ -17,47 +17,48 @@ document.addEventListener("DOMContentLoaded", function () {
             url: "https://webthethao.vn/lien-minh-huyen-thoai/drama-hau-truong-t1-bung-no-mot-hanh-dong-don-gian-khien-ca-cong-dong-lmht-tranh-cai-2SjO4mPiR.htm",
             isFeatured: true,
         },
-    ];
-  
-    const latestNewsData = [
-         {
+        {
             id: "gundam-steam",
             image: "../images/gundam-anime-4k-wallpaper-uhdpaper.com-290@5@d.jpg",
             title: "Tựa game Gundam này chỉ còn 6 người chơi, bị xóa khỏi Steam?",
             content: "SD Gundam Capsule Fighter Online, game online đình đám một thời giờ chỉ còn đếm trên đầu ngón tay người chơi...",
             url: "https://gamek.vn/tua-game-chi-con-6-nguoi-choi-bi-xoa-khoi-steam-178240722172802315.chn",
-            isFeatured: false,
+            isFeatured: true,
         },
+    ];
+  
+    const latestNewsData = [
+         
         {
             id: "dot-kich-mobile",
-            image: "../images/news-5.jpg", // Thay ảnh thật
+            image: "../images/download.jpg", // Thay ảnh thật
             title: "Đột Kích Mobile sắp hồi sinh?",
             content: "Phiên bản thử nghiệm mới bất ngờ được đăng tải, cộng đồng dậy sóng.",
             url: "#", // Thay link thật
-            isFeatured: false,
+            isFeatured: true,
         },
         {
             id: "moonton-moba",
-            image: "../images/news-6.jpg", // Thay ảnh thật
-            title: "Moonton hé lộ dự án MOBA mới",
-            content: "Đối thủ nặng ký của Liên Quân và LMHT Tốc Chiến chính thức khởi động.",
-            url: "#", // Thay link thật
+            image: "../images/new.webp", // Thay ảnh thật
+            title: "Đi chơi net, nam game thủ vô tình cứu sống chị chủ quán, CĐM tấm tắc khen ngợi",
+            content: "Mới đây, sự việc hy hữu này đã xảy ra tại một tiệm net nhỏ. Theo video chia sẻ, khi chị chủ quán đang đi từ phía quầy thu ngân ra thu tiền khách thì đột nhiên đứng khựng lại, tay vịn vào bàn như cố giữ thăng bằng. Sắc mặt chị tái nhợt đi, dáng đứng xiêu vẹo đến mức chuẩn bị ngã gục xuống đất.",
+            url: "https://gamek.vn/di-choi-net-nam-game-thu-vo-tinh-cuu-song-chi-chu-quan-cdm-tam-tac-khen-ngoi-178250414001022086.chn", // Thay link thật
             isFeatured: false,
         },
         {
             id: "valorant-mobile",
-            image: "../images/news-7.jpg", // Thay ảnh thật
-            title: "Valorant Mobile lộ ảnh thử nghiệm",
-            content: "Hé lộ bản đồ mới, súng mới, và tính năng độc quyền cho mobile.",
-            url: "#", // Thay link thật
+            image: "../images/base64-17445973444771010720684.webp", // Thay ảnh thật
+            title: "Công bố lịch trình đầy hứa hẹn trên Steam, tựa game này bất ngờ giảm giá 90%, chưa tới một bát phở",
+            content: 'Crime Boss: Rockay City, tựa game hành động phối hợp từng bị coi là "đứa con ghẻ" trong làng game, đang có màn trở lại đầy ấn tượng với mức giá không tưởng.',
+            url: "#https://gamek.vn/cong-bo-lich-trinh-day-hua-hen-tren-steam-tua-game-nay-bat-ngo-giam-gia-90-chua-toi-mot-bat-pho-178250414092531575.chn", // Thay link thật
             isFeatured: false,
         },
         {
             id: "steam-sale",
-            image: "../images/news-8.jpg", // Thay ảnh thật
-            title: "Steam Sale giữa năm chuẩn bị khởi động",
-            content: "Hàng trăm game giảm giá sâu, bạn đã sẵn sàng chưa?",
-            url: "https://store.steampowered.com/",
+            image: "../images/photo-1744790554122-17447905546551206405884.png", // Thay ảnh thật
+            title: "Tencent chính thức phát hành một game Final Fantasy mới toanh trên di động",
+            content: "Phiên bản mới nhất của IP Final Fantasy đã được ấn định ra mắt tại Trung Quốc vào tháng 8/2025.",
+            url: "https://gamek.vn/tencent-chinh-thuc-phat-hanh-mot-game-final-fantasy-moi-toanh-tren-di-dong-178250416150428816.chn",
             isFeatured: false,
         },
     ];
@@ -372,7 +373,7 @@ document.addEventListener("DOMContentLoaded", function () {
             });
         } else {
             newLoginBtn.textContent = "LOGIN";
-            newLoginBtn.href = "./html/login.html"; // Đảm bảo link đúng
+            newLoginBtn.href = "../html/login.html"; // Đảm bảo link đúng
             newLoginBtn.style.cursor = "";
             newLoginBtn.title = "Đăng nhập / Đăng ký";
             // Không cần thêm listener cho nút login
