@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const gameNews = {
         "sinh-ton": `
             <div class="card">
-                <img class="card-image" src="../images/minecraft-background-cfljc4haleghnajo.jpg" alt="Minecraft Update">
+                <img class="card-image" src="./images/minecraft-background-cfljc4haleghnajo.jpg" alt="Minecraft Update">
                 <div class="card-content">
                     <span class="tag update">UPDATE</span>
                     <span class="date">13/7/2024</span>
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 </div>
             </div>
             <div class="card">
-                <img class="card-image" src="../images/minecraft-background-cfljc4haleghnajo.jpg" alt="Minecraft Patch">
+                <img class="card-image" src="./images/minecraft-background-cfljc4haleghnajo.jpg" alt="Minecraft Patch">
                 <div class="card-content">
                     <span class="tag update">UPDATE</span>
                     <span class="date">14/12/2023</span>
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 </div>
             </div>
             <div class="card">
-                <img class="card-image" src="../images/minecraft-background-cfljc4haleghnajo.jpg" alt="Minecraft Event">
+                <img class="card-image" src="./images/minecraft-background-cfljc4haleghnajo.jpg" alt="Minecraft Event">
                 <div class="card-content">
                     <span class="tag event">EVENT</span>
                     <span class="date">01/05/2025</span>
@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function() {
             </div>`,
         "hanh-dong": `
             <div class="card">
-                <img class="card-image" src="../images/8672297_Cover-ACS.webp" alt="AC Shadows">
+                <img class="card-image" src="./images/8672297_Cover-ACS.webp" alt="AC Shadows">
                 <div class="card-content">
                     <span class="tag event">EVENT</span>
                     <span class="date">2025.02.25</span>
@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function() {
             </div>`,
         "nhap-vai": `
             <div class="card">
-                <img class="card-image" src="../images/Vvvbbsi3774hfiaoolfb_1920x1040.jpg" alt="FF XIV">
+                <img class="card-image" src="./images/Vvvbbsi3774hfiaoolfb_1920x1040.jpg" alt="FF XIV">
                 <div class="card-content">
                     <span class="tag event">EVENT</span>
                     <span class="date">2025.04.01</span>
@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", function() {
             </div>`,
         "FPS-TPS": `
             <div class="card">
-                <img class="card-image" src="../images/valorant-game-ban-sung-chien-thuat-dau-tien-cua-riot-23-09-2020-3.jpg" alt="Valorant Event">
+                <img class="card-image" src="./images/valorant-game-ban-sung-chien-thuat-dau-tien-cua-riot-23-09-2020-3.jpg" alt="Valorant Event">
                 <div class="card-content">
                     <span class="tag event">EVENT</span>
                     <span class="date">2025.03.07</span>
@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", function() {
             </div>`,
         "chien-luoc": `
             <div class="card">
-                <img class="card-image" src="../images/arknights-4k-waggbbwkw7f8w8dg.jpg" alt="Arknights Collab">
+                <img class="card-image" src="./images/arknights-4k-waggbbwkw7f8w8dg.jpg" alt="Arknights Collab">
                 <div class="card-content">
                     <span class="tag event">EVENT</span>
                     <span class="date">2025.03.15</span>
@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", function() {
             </div>`,
         "sports": `
             <div class="card">
-                <img class="card-image" src="../images/e3-2016-forza-horizon-3-le-hoi-than-gio-gioi-thieu-game-01.jpg" alt="FIFA 25">
+                <img class="card-image" src="./images/e3-2016-forza-horizon-3-le-hoi-than-gio-gioi-thieu-game-01.jpg" alt="FIFA 25">
                 <div class="card-content">
                     <span class="tag event">EVENT</span>
                     <span class="date">2025.04.10</span>
@@ -112,7 +112,7 @@ document.addEventListener("DOMContentLoaded", function() {
             </div>`,
         "battle-royal": `
             <div class="card">
-                <img class="card-image" src="../images/pubg-mobile-game-image-4.jpg" alt="PUBG Mode">
+                <img class="card-image" src="./images/pubg-mobile-game-image-4.jpg" alt="PUBG Mode">
                 <div class="card-content">
                     <span class="tag event">EVENT</span>
                     <span class="date">2025.02.20</span>

@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (match) {
         alert("Login successful!");
         localStorage.setItem("loggedInUser", username);
-        window.location.href = "../index.html";
+        window.location.href = "/index.html";
       } else {
         alert("Invalid username or password.");
       }

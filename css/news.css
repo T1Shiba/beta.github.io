@@ -71,13 +71,13 @@ body {
   transform: scale(1.05);
 }
 
-.game-btn.sinh-ton { background-image: url('../images/minecraft-background-cfljc4haleghnajo.jpg'); }
-.game-btn.hanh-dong { background-image: url('../images/8672297_Cover-ACS.webp'); }
-.game-btn.nhap-vai { background-image: url('../images/Vvvbbsi3774hfiaoolfb_1920x1040.jpg'); }
-.game-btn.fps-tps { background-image: url('../images/valorant-game-ban-sung-chien-thuat-dau-tien-cua-riot-23-09-2020-3.jpg'); }
-.game-btn.chien-luoc { background-image: url('../images/arknights-4k-waggbbwkw7f8w8dg.jpg'); }
-.game-btn.sports { background-image: url('../images/e3-2016-forza-horizon-3-le-hoi-than-gio-gioi-thieu-game-01.jpg'); }
-.game-btn.battle-royal { background-image: url('../images/pubg-mobile-game-image-4.jpg'); }
+.game-btn.sinh-ton { background-image: url('./images/minecraft-background-cfljc4haleghnajo.jpg'); }
+.game-btn.hanh-dong { background-image: url('./images/8672297_Cover-ACS.webp'); }
+.game-btn.nhap-vai { background-image: url('./images/Vvvbbsi3774hfiaoolfb_1920x1040.jpg'); }
+.game-btn.fps-tps { background-image: url('./images/valorant-game-ban-sung-chien-thuat-dau-tien-cua-riot-23-09-2020-3.jpg'); }
+.game-btn.chien-luoc { background-image: url('./images/arknights-4k-waggbbwkw7f8w8dg.jpg'); }
+.game-btn.sports { background-image: url('./images/e3-2016-forza-horizon-3-le-hoi-than-gio-gioi-thieu-game-01.jpg'); }
+.game-btn.battle-royal { background-image: url('./images/pubg-mobile-game-image-4.jpg'); }
 
 .game-btn:hover {
   filter: brightness(1.2);
